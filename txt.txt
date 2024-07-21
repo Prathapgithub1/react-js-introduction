@@ -1,0 +1,9 @@
+what is the JSX (javascript XML)
+jsx is the same like html 
+
+how can i creat react APP 
+-------------------------------
+npx create-react-app reactDemo (npx=> node package executor, create-react-app => library, projectName)
+--------------------------
+then next you have to move to cd your loaction 
+=> npm start then your application is running on default prot 3000

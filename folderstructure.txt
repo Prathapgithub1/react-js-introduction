@@ -1,0 +1,22 @@
+public/: This folder contains the static files that will be served directly. It's not processed by Webpack.
+index.html: The main HTML file where the React app mounts.
+manifest.json: Configuration file for PWA.
+favicon.ico: The favicon for the website.
+assets/: Static assets like images, fonts, etc.
+
+tobots.txt : this one tells which allows to see in the browser inspect or source code 
+
+src:source file contains components and app files 
+
+index.js is a main file of react js 
+repotWebVitals.js is to check the performance of application 
+
+setupTest.js is a testing file 
+ gitignore is to igonre the files of application 
+
+-------------------------------------------------------------------------------------------
+ versions:"18.2.0"=> 18 is major version , .2 is minor version , .0 is patch version 
+ ^is minor version symbole and ~is patch version symbole minum required for those versions 
+ -------------------------------------------------------------------------------------------
+
+ 

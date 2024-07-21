@@ -1,0 +1,36 @@
+what is the JSX (javascript XML)
+Its syntax extenstion to javascript is called JSX
+babel is a compiler for convert to code from jsx to regular javascript function like understand the web browsers 
+------------------------------------------------------------
+what is the components 
+component is nothing but the combination of HTML,CSS,JS files are called component
+
+import React from "react";
+
+
+//functional Component
+// let App = () => {
+//     return (
+//         <div>
+//             <h1>Hello Prathap</h1>
+//         </div>
+//     )
+// }
+
+// export default App
+------------------------------------------------------------
+class component 
+class App extends React.Component {
+    render() {
+        return (
+            <div>
+                <ul>
+                    <li>UserName</li>
+                    <li>Prathap</li>
+                </ul>
+            </div>
+        )
+    }
+}
+
+export default App
