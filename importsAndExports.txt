@@ -1,0 +1,30 @@
+import and exports 
+
+app.js
+----------
+
+//this is the named export
+export let obj={
+    "name":"prathap",
+    "roolNo":"iDONTKNOW"
+}
+
+// default exports 
+
+let name=()=>{
+    return (
+        <div>Container</div>
+    )
+}
+
+export default name
+
+node.js
+---------
+// named exports must be write between {} 
+import {obj} from "./app" 
+
+
+//default export 
+// you don't need to write that paticular name(name)  and you can call like anything here but in js file we need to import and export one default file only
+import x from "/.app"
